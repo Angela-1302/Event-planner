@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Open+Sans:ital,wght@1,300;1,500&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,100;1,300&display=swap');
+
+:root{
+    --pink:#ef5777;
+    --white:#fff;
+    --black:#222;
+    --transparent-white:rgba(255,255,255,.3);
+    --border:.2rem solid var(--black);
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html{
+    font-size: 80%;
+    overflow-x: hidden;
+}
+
+body{
+    background: url(./beautiful-flowers-background-wedding-scene_42044-2031.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.container{
+    
+    
+    
+  
+  }
+
+  .container h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    background-color: var(--pink);
+}
+
+.card-body{
+    padding-left: 120px;
+ 
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width:100%;
+    padding-left: 120px;
+  }
+
+  #customers td, #customers th {
+    border: 1px solid black;
+    padding: 8px;
+    
+  }
+
+  #customers tr:nth-child(){background-color:white;}
+
+
+
+#customers th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:var(--pink);
+  color: white;
+}
+
+#customers tr{
+    background-color:var(--white);
+}
+
+.container .card{
+    background: var(--transparent-white);
+}
+  
+
+
+
+
+
+
